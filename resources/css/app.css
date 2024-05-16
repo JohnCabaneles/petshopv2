@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    border: dotted 1px red;
+} */
+
+.dynamic-font-size {
+    font-size: clamp(
+        0.875rem,
+        1rem + 0.5vw,
+        0.5rem
+    ); /* Adjust values as needed */
+}
+
+.bg-custom {
+    background-image: url("/public/images/BgPet.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pet-logo {
+    background-image: url("/public/images/JJ_Pet_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+}
+
+.content-image {
+    background-image: url("/public/images/PetKv.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+}
+
+.pet-width {
+    width: 1000px;
+}
+
+.content-width {
+    width: 1000px;
+}
+
+.footer-width {
+    width: 2000px;
+    height: 300px;
+}
+
+.fa-dim {
+    height: 100px;
+    width: 100px;
+}
